@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    background-color: black;
+   
+   
+    }
+    #navbar{
+        display: flex;
+        align-items: center;
+        position: static;
+        top: 0px;
+    }
+    #logo{
+        margin: 10px 12px;
+    }
+    #logo img{
+        height: 49px;
+        margin: 3px 5px;
+        border-radius: 10px;
+    }
+    #navbar ul{
+        display: flex;
+    }
+    #navbar ul li{
+      
+       list-style: none;
+       font-size: 1.3rem;
+
+    }
+
+    #navbar ul li a{
+            padding: 10px 50px;
+            text-decoration: none;
+            display: block;
+            border-radius: 20px;
+          color: silver;
+    }
+    #navbar ul li a:hover{
+color: rgb(129, 116, 116);
+  
+
+    }
+    #home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       flex-direction: column;
+       height: 150px;
+       padding: 35px 35px;
+
+    }
+    #home::before{
+        content: "";
+        z-index: -1;
+        opacity: .8;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: url(apple00.logo.jpg)  ;
+    background-size: cover;
+ margin-top: 200px;
+    }
+    #home h1{
+        font-size: 3.3rem;
+        color: silver;
+
+    }
+    #home h2{
+        font-size: 1.70rem;
+        color: silver;
+        margin: 10px;
+
+
+    }
+    .zxc{
+  
+        text-decoration: none;
+        color: rgb(227, 17, 59);
+        font-size: 25px;
+
+    }
+    .zxc:hover{
+        color: silver;
+    }
+    .mnb{
+        text-decoration: none;
+        color: rgb(227, 20, 20);
+        margin: 25px;
+        font-size: 25px;
+        
+    }
+    .mnb:hover{
+        color: silver;
+    }
+    
+
+</style>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="apple.logo.png" alt="eroor image">
+        </div>
+<ul>
+<li class="item"><a href="#">Home</a></li>
+<li class="item"><a href="#">About us</a></li>
+<li class="item"><a href="#">Help</a></li>
+<li class="item"><a href="#">Contact us </a></li>
+
+
+</ul>
+
+    </nav>
+<section id="home">
+    <h1 class="h-primary">iPhone 14 Pro</h1>
+    <h2>Pro.Beyond</h2>
+    <div>
+ <a  class="zxc" href="#">Learn more></a>
+  <a class="mnb"href="#">Buy></a>  
+</div>
+</section>
+
+
+</body>
+</html>
